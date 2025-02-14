@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* About Section */
+.about {
+    background: #161b22;
+    color: white;
+    padding: 80px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Content */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* About Image */
+.about-image {
+    flex: 1;
+    max-width: 350px;
+    margin: 20px;
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    border: #00eaff 2px solid;
+    box-shadow: 0 0 20px;
+}
+
+/* Hover Effect */
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* About Text */
+.about-text {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #00eaff;
+}
+
+.about-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Personal Info */
+.about-info {
+    margin-top: 20px;
+}
+
+.about-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #bbb;
+}
+
+/* Buttons */
+.about-buttons {
+    margin-top: 20px;
+}
+
+.about-buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn {
+    background: #00eaff;
+    color: #161b22;
+}
+
+.btn:hover {
+    background: #161b22;
+    border: #00eaff 2px solid;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        max-width: 250px;
+    }
+}
+        
+    </style>
+</head>
+<body>
+    
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-content">
+            <!-- Profile Image -->
+            <div class="about-image">
+                <img src="images/home.jpg" alt="Sudais Jadoon">
+            </div>
+            
+            <!-- About Text -->
+            <div class="about-text">
+                <h2>About <span class="highlight">Me</span></h2>
+                <h3>Frontend & Web Developer</h3>
+                <p>
+                    Hey there! I'm <strong>Sudais Jadoon</strong>, a passionate frontend developer with a keen eye for design and functionality. 
+                    I love creating modern, responsive, and user-friendly web experiences that leave an impact.
+                </p>
+                <p>
+                    Skilled in *HTML, CSS, JavaScript, Java, Python, and C++*, I specialize in building elegant and efficient web applications.
+                    My goal is to blend creativity and technology to bring ideas to life.
+                </p>
+                
+                <!-- Personal Details -->
+                <div class="about-info">
+                    <p><strong>Email:</strong> +923195868013</p>
+
+                    <p><strong>Email:</strong> sudaisjadoon09@gmail.com</p>
+                    <p><strong>Location:</strong> Pakistan</p>
+                    <p><strong>Freelance:</strong> Available</p>
+                </div>
+
+                <!-- Buttons -->
+                <div class="about-buttons">
+                    <a href="contact.html" class="btn">Hire Me</a>
+                    <a href="resume.pdf" class="btn download">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+</body>
+</html>
